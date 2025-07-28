@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: rgb(30, 29, 29);
+    color: white;
+    padding:40px;
+    text-align: center;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+nav .logo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+nav .logo span {
+    color: pink;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: rgb(220, 120, 140);
+}
+
+.signup {
+    background-color: rgb(236, 144, 159);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.login {
+    background-color: rgb(236, 144, 159);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.content {
+    margin-left: 15px;
+}
+
+.btn {
+    background: rgb(236, 144, 159);
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgb(220, 120, 140);
+}
+
+.mid {
+    text-align: center;
+    padding: 40px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo-box {
+    width: 80px;
+    height: 50px;
+    background: #ddd;
+    border-radius: 8px;
+}
+
+.logo-box img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.who {
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    background: #f9f9f9;
+    gap: 40px;
+}
+
+.image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.who .text {
+    max-width: 500px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    background: #fffbe6
+}
+
+.feature-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1)
+}
+
+.bottom-part {
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    background: rgb(106, 106, 193);
+    gap: 30px;
+}
+
+.bottom-text {
+    flex: 1;
+}
+
+.bottom-image {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.bottom-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
